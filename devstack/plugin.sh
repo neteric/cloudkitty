@@ -220,7 +220,7 @@ function install_python_cloudkittyclient {
 # install_cloudkitty_dashboard() - Collect source and prepare
 function install_cloudkitty_dashboard {
     # Install from git since we don't have a release (yet)
-    git_clone_by_name "cloudkitty-dashboard"
+    #git_clone_by_name "cloudkitty-dashboard" 
     setup_dev_lib "cloudkitty-dashboard"
 }
 
