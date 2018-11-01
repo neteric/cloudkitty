@@ -213,7 +213,7 @@ function stop_cloudkitty {
 # install_python_cloudkittyclient() - Collect source and prepare
 function install_python_cloudkittyclient {
     # Install from git since we don't have a release (yet)
-    git_clone_by_name "python-cloudkittyclient"
+    # git_clone_by_name "python-cloudkittyclient"
     setup_dev_lib "python-cloudkittyclient"
 }
 
